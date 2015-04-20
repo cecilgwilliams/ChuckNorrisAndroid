@@ -44,7 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ChuckNorris">
-      <HintPath>..\..\ChuckNorris\ChuckNorris\bin\Debug\ChuckNorris.dll</HintPath>
+      <HintPath>.\ChuckNorris.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
