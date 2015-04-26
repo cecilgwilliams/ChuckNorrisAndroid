@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">ChuckNorrisAndroid</string>
+  <string name="Quotes">View Quotes</string>
+  <string name="Next">Next Quote</string>
+  <string name="Graph">View Graph</string>
+  <string name="ApplicationName">Chuck Norris Android</string>
 </resources>

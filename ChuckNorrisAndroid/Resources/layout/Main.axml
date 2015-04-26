@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:gravity="center">
     <Button
-        android:id="@+id/MyButton"
-        android:layout_width="fill_parent"
+        android:id="@+id/Quotes"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Hello" />
-    <TabWidget
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
+        android:text="@string/Quotes"
+        android:padding="16dp" />
+    <Button
+        android:id="@+id/Graph"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tabWidget1" />
+        android:text="@string/Graph"
+        android:padding="16dp" />
 </LinearLayout>
